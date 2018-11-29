@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  border-color: #eee;
+  color: #333;
+  line-height: 1.4;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  outline: 1px dotted red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  height: 700px;
+
+}
+
+.flex-item {
+  height: 100px;
+  flex: 0 0 100px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+
+
+}
+.one {
+
+order: 2;
+
+}
+.two {
+
+order: 1;
+
+}
+.three {
+
+order: 0;
+
+}
+
+.four {
+
+  order: 0;
+
+}
+
+.five {
+
+order: -1;
+}
